@@ -2,27 +2,31 @@
 
 ### System Requirements
 
-We will focus on the following set of requirements while designing the metadata.Library Management System:
+1) We will focus on the following set of requirements while designing the metadata.Library Management System:
 
-1) Any library member should be able to search books by their title, author, subject category as well by the publication date.
+2) The parking lot should have multiple floors where customers can park their cars.
 
-2) Each book will have a unique identification number and other details including a rack number which will help to physically locate the book.
+3) The parking lot should have multiple entry and exit points.
 
-3) There could be more than one copy of a book, and library members should be able to check-out and reserve any copy. We will call each copy of a book, a book item.
+4) Customers can collect a parking ticket from the entry points and can pay the parking fee at the exit points on their way out.
 
-4) The system should be able to retrieve information like who took a particular book or what are the books checked-out by a specific library member.
+5) Customers can pay the tickets at the automated exit panel or to the parking attendant.
 
-5) There should be a maximum limit (5) on how many books a member can check-out.
+6) Customers can pay via both cash and credit cards.
 
-6) There should be a maximum limit (10) on how many days a member can keep a book.
+7) Customers should also be able to pay the parking fee at the customer’s info portal on each floor. If the customer has paid at the info portal, they don’t have to pay at the exit.
 
-7) The system should be able to collect fines for books returned after the due date.
+8) The system should not allow more vehicles than the maximum capacity of the parking lot. If the parking is full, the system should be able to show a message at the entrance panel and on the parking display board on the ground floor.
 
-8) Members should be able to reserve books that are not currently available.
+9) Each parking floor will have many parking spots. The system should support multiple types of parking spots such as Compact, Large, Handicapped, Motorcycle, etc.
 
-9) The system should be able to send notifications whenever the reserved books become available, as well as when the book is not returned within the due date.
+10) The Parking lot should have some parking spots specified for electric cars. These spots should have an electric panel through which customers can pay and charge their vehicles.
 
-10) Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
+11) The system should support parking for different types of vehicles like car, truck, van, motorcycle, etc.
+
+12) Each parking floor should have a display board showing any free parking spot for each spot type.
+
+13) The system should support a per-hour parking fee model. For example, customers have to pay $4 for the first hour, $3.5 for the second and third hours, and $2.5 for all the remaining hours.
 
 
 ### Actors
