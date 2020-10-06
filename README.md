@@ -1,5 +1,6 @@
 # ParkingLot
-        ### System Requirements
+
+### System Requirements
 
         We will focus on the following set of requirements while designing the metadata.Library Management System:
 
@@ -24,7 +25,7 @@
         10) Each book and member card will have a unique barcode. The system will be able to read barcodes from books and members’ library cards.
 
 
-        ### Actors
+### Actors
 
         Admin: Mainly responsible for adding and modifying parking floors, parking spots, entrance, and exit panels, adding/removing parking attendants, etc.
 
@@ -34,7 +35,7 @@
 
         System: To display messages on different info panels, as well as assigning and removing a vehicle from a parking spot.
 
-        ### Use Cases
+### Use Cases
 
         Add/Remove/Edit parking floor: To add, remove or modify a parking floor from the system. Each floor can have its own display board to show free parking spots.
 
